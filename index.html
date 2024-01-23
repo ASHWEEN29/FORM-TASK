@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="act.js"></script>
+</head>
+<body style="color: rgb(234, 35, 35);background-color: powderblue;">
+    <div class="container">
+    <table>
+    <tr>
+    <h1 style="text-align: center;"> User Details  </h1>
+
+    <form id="userDetailsForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+    </div>
+</tr>
+<tr>
+    <div id="result"></div>
+</tr>
+</table>
+</body>
+</html>
